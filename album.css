@@ -1,0 +1,136 @@
+/* Navigation Bar*/
+#navBackground{
+    background-color: rgb(10, 165, 93) !important;
+}
+.nav-link{
+    color:white !important;
+    font-size: 500;
+}
+#navbarNav> ul> li> a:hover{
+    text-decoration: underline!important;
+    background-color: black;
+}
+
+/* About Pakhi Bandhu/News/Add/Info*/
+#albumSection{
+    margin-top: 1.5rem;
+}
+#albumSection img:hover{ 
+    transform: scale(1.05);
+    transition: 2s;
+}
+
+#albumTitle{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.albumBirdNAme{
+    text-align: center;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+}
+#albumSection a{ 
+    color: #2e4263;
+}
+#albumSection a:hover{ 
+    background-color:rgb(7, 11, 41) ;
+    color: #ffff;
+}
+
+#addSection{
+    border:2px solid black;
+    height: 13rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0.50rem;
+    
+}
+#addSection>h5{
+    font-family: 'Bangla';
+    font-size:1.5rem;
+    font-weight: 500;
+}
+#newsSection{
+    border:1px solid black;
+    height: 15rem;
+    margin-bottom: 0.5rem;
+}
+#newsSectionTitle{
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding-bottom:0;
+    font-family: 'Bangla';
+    font-size:1.5rem;
+}
+#newsSection li{
+    list-style-type: none;
+}
+#newsSection li a{
+    line-height: 3rem;
+}
+#newsSectionLink{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#infoSectionTitle{
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding-bottom:0; 
+    font-family: 'Bangla';
+    font-size: 1.5rem;
+}
+#infoSection{
+    border: 1px solid black;
+    height:11rem;
+    
+}
+#infoSection li{
+    list-style-type: none;
+}
+#infoSection li a{
+    line-height: 2.5rem;
+}
+#infoSectionLink{
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+}
+/* Successful Bode Lovers*/
+#birdLoverTitle{
+    text-align: center;
+    margin-bottom: 0.40rem;
+}
+
+.birdLoverCol{
+    padding:0;
+    margin:0;
+}
+/*Address Section */
+#addreSection{
+    background-color: #2e4263;
+    color:white
+}
+#addressPara{
+    font-size:1.2rem;
+    font-weight: 500;
+    text-align: center;
+}
+.fontIcon{
+    font-size: 1rem;
+    font-weight: 500;
+}
+address{
+    font-weight: 500;
+}
+/*Last Ending Secion*/
+footer{
+    text-align: center;
+}
+

@@ -1,0 +1,128 @@
+
+
+/* Navigation Bar*/
+#navBackground{
+    background-color: rgb(77, 87, 219) !important;
+}
+.nav-link{
+    color:white !important;
+    font-size: 500;
+}
+#navbarNav> ul> li> a:hover{
+    text-decoration: underline!important;
+    background-color: black;
+}
+
+/* About Pakhi Bandhu/News/Add/Info*/
+#pakhiBandhuSection{
+    margin-top: 1.5rem;
+}
+#pakhiBandhuDes{
+    text-indent: 100px;
+    text-align: justify;
+    line-height:2rem;
+    font-size:1.2rem
+}
+#pakhiBandhuSection h3{
+    text-align: center;
+    border:1px solid black;
+}
+
+#addSection{
+    border:2px solid black;
+    height: 13rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0.25rem;
+    margin-top: 1.5rem;
+}
+#addSection>h5{
+    font-family: 'Bangla';
+    font-size:1.5rem;
+    font-weight: 500;
+}
+#newsSection{
+    border:1px solid black;
+    height: 15rem;
+    margin-bottom: 0.25rem;
+}
+#newsSectionTitle{
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding-bottom:0;
+    font-family: 'Bangla';
+    font-size:1.5rem;
+}
+#newsSection li{
+    list-style-type: none;
+}
+#newsSection li a{
+    line-height: 3rem;
+}
+#newsSectionLink{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#infoSectionTitle{
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding-bottom:0; 
+    font-family: 'Bangla';
+    font-size: 1.5rem;
+}
+#infoSection{
+    border: 1px solid black;
+    height:8.5rem;
+    
+}
+#infoSection li{
+    list-style-type: none;
+}
+#infoSection li a{
+    line-height: 2rem;
+}
+#infoSectionLink{
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+}
+/* Successful Bode Lovers*/
+#birdLoverTitle{
+    text-align: center;
+    margin-bottom: 0.40rem;
+}
+
+.birdLoverCol{
+    padding:0;
+    margin-left:-1rem;
+    column-gap: 1px;
+}
+
+/*Address Section */
+#addreSection{
+    background-color: #2e4263;
+    color:rgb(255, 251, 251);
+}
+address{
+    font-weight: 500;
+    line-height: 0.5;
+    text-align: center;
+}
+#addressPara{
+    font-size:1.2rem;
+    font-weight: 500;
+    text-align: center;
+}
+.fontIcon{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/*Last Ending Secion*/
+footer{
+    text-align: center;
+}
