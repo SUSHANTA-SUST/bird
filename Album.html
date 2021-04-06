@@ -26,12 +26,13 @@
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <!--CSS LINKS-->
     <link rel="stylesheet" href="album.css" />
+    <link rel="stylesheet" href="albumResponsive.css">
     <title> পাখিবন্ধু/এ্যালবাম </title>
 </head>
 
 <body>
     <!--Navigation Bar-->
-    <div class="container">
+    <div class="container" id=" responsiveNavbar">
         <div class="row">
             <div class="col-lg-12">
                 <nav id="navBackground" class="navbar navbar-expand-lg navbar-light bg-light ">
@@ -79,53 +80,78 @@
     <!--Pakhi Album-->
     <div id="albumSection" class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <h5 id="albumTitle"> পাখির এ্যালবাম</h5>
-                <div class="row">
-                    <div class="col-4">
-                        <img src="Bajrigar1.jpg" alt="বাজরিগর">
-                        <a href="#" class="albumBirdNAme">বাজরিগর</a>
-                    </div>
-                    <div class="col-4">
-                        <img src="Cockatiel.jpg" alt="কোকাটেল">
-                        <a href="#" class="albumBirdNAme">কোকাটেল</a>
-                    </div>
-                    <div class="col-4">
-                        <img src="Dove Bird.jpg" alt="ডোভ পাখি">
-                        <a href="#" class="albumBirdNAme">ডোভ</a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-4">
-                        <img src="electus.png" alt="ইলেক্টাস পাখি">
-                        <a href="#" class="albumBirdNAme"> ইলেক্টাস</a>
-                    </div>
-                    <div class="col-4">
-                        <img src="lovebird.jfif" alt="লাভ বার্ড">
-                        <a href="#" class="albumBirdNAme"> লাভ বার্ড</a>
-                    </div>
-                    <div class=" col-4">
-                        <img src="Macau.jfif" alt="ম্যাকাউ">
-                        <a href="#" class="albumBirdNAme"> ম্যাকাউ</a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-4">
-                        <img src="phinch.jpg" alt="ফিঞ্চ পাখি">
-                        <a href="#" class="albumBirdNAme"> ফিঞ্চ পাখি</a>
-                    </div>
-                    <div class="col-4">
-                        <img src="RedLorry.jpg" alt="রেড লরি">
-                        <a href="#" class="albumBirdNAme"> রেড লরি</a>
-                    </div>
-                    <div class="col-4">
-                        <img src="kakatuaa.jpg" alt="কাকাতুয়া">
-                        <a href="#" class="albumBirdNAme"> কাকাতুয়া</a>
-                    </div>
-                </div>
+            <h5 id="albumTitle"> পাখির এ্যালবাম</h5>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                <img src="Image/Pakhi/Bajrigar1.jpg" alt="বাজরিগর">
+                <a href="#" class="albumBirdNAme">বাজরিগর</a>
             </div>
-            <!-- NewS/Info/Add Section
-            <div class="col-lg-3">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                <img src="Image/Pakhi/Bajrigar1.jpg" alt="বাজরিগর">
+                <a href="#" class="albumBirdNAme">বাজরিগর</a>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                <img src="Image/Pakhi/Cockatiel.jpg" alt="কোকাটেল">
+                <a href="#" class="albumBirdNAme">কোকাটেল</a>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                <img src="Image/Pakhi/Dove Bird.jpg" alt="ডোভ পাখি">
+                <a href="#" class="albumBirdNAme">ডোভ</a>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                <img src="Image/Pakhi/electus.png" alt="ইলেক্টাস পাখি">
+                <a href="#" class="albumBirdNAme"> ইলেক্টাস</a>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                <img src="Image/Pakhi/electus.png" alt="ইলেক্টাস পাখি">
+                <a href="#" class="albumBirdNAme"> ইলেক্টাস</a>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                <img src="Image/Pakhi/lovebird.jfif" alt="লাভ বার্ড">
+                <a href="#" class="albumBirdNAme"> লাভ বার্ড</a>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                <img src="Image/Pakhi/Macau.jfif" alt="ম্যাকাউ">
+                <a href="#" class="albumBirdNAme"> ম্যাকাউ</a>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                <img src="Image/Pakhi/phinch.jpg" alt="ফিঞ্চ পাখি">
+                <a href="#" class="albumBirdNAme"> ফিঞ্চ পাখি</a>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                <img src="Image/Pakhi/phinch.jpg" alt="ফিঞ্চ পাখি">
+                <a href="#" class="albumBirdNAme"> ফিঞ্চ পাখি</a>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                <img src="Image/Pakhi/RedLorry.jpg" alt="রেড লরি">
+                <a href="#" class="albumBirdNAme"> রেড লরি</a>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                <img src="Image/Pakhi/kakatuaa.jpg" alt="কাকাতুয়া">
+                <a href="#" class="albumBirdNAme"> কাকাতুয়া</a>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                <img src="Image/Pakhi/phinch.jpg" alt="ফিঞ্চ পাখি">
+                <a href="#" class="albumBirdNAme"> ফিঞ্চ পাখি</a>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                <img src="Image/Pakhi/phinch.jpg" alt="ফিঞ্চ পাখি">
+                <a href="#" class="albumBirdNAme"> ফিঞ্চ পাখি</a>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                <img src="Image/Pakhi/RedLorry.jpg" alt="রেড লরি">
+                <a href="#" class="albumBirdNAme"> রেড লরি</a>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                <img src="Image/Pakhi/kakatuaa.jpg" alt="কাকাতুয়া">
+                <a href="#" class="albumBirdNAme"> কাকাতুয়া</a>
+            </div>
+        </div>
+
+        <!-- NewS/Info/Add Section-->
+        <!-- <div class="col-lg-3">
                 <div class="container">
                     Add Section
                     <div id="addSection" class="row">
@@ -142,19 +168,19 @@
                             <li> <a href="#"> NEWS 1 NEWS 1 NEWS </a></li>
                         </ul>
                     </div>
-                    Info Section
-                    <div id="infoSection" class="row">
-                        <p id="infoSectionTitle"> গুরুত্বপূর্ণ তথ্যের তালিকা</p>
-                        <ul id="infoSectionLink">
-                            <li> <a href="#"> LINK 1 LINK1 LINK1 LINK1 </a></li>
-                            <li> <a href="#"> LINK 1 LINK1 LINK1 LINK1 </a></li>
-                            <li> <a href="#"> LINK 1 LINK1 LINK1 LINK1 </a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>-->
-        </div>
+                    Info Section-->
+        <!-- <div id="infoSection" class="row">
+                <p id="infoSectionTitle"> গুরুত্বপূর্ণ তথ্যের তালিকা</p>
+                <ul id="infoSectionLink">
+                    <li> <a href="#"> LINK 1 LINK1 LINK1 LINK1 </a></li>
+                    <li> <a href="#"> LINK 1 LINK1 LINK1 LINK1 </a></li>
+                    <li> <a href="#"> LINK 1 LINK1 LINK1 LINK1 </a></li>
+                </ul>
+            </div> -->
     </div>
+    </div>
+    </div>
+
     <!--Some Successful Bird Lovers-->
     <!-- <div class="container mt-4">
         <h4 id="birdLoverTitle"> সফল পাখি প্রেমীদের কথা</h4>
