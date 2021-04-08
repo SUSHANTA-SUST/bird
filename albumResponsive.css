@@ -1,0 +1,77 @@
+
+@media only screen and (max-width: 320px){
+    .responsiveImage{
+        width:18rem;
+    }
+    
+    .albumBird{
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center;
+    }
+    .albumBirdNAme{
+        font-size:1.4rem;
+        margin-left: 1rem;
+    }
+    address{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px){
+    .responsiveImage{
+        width:22rem;
+        padding: 1rem;
+    }
+   
+   .albumBirdNAme{
+    font-size:1.4rem;
+    margin-left: 1rem;
+    }
+.albumBird{
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center;
+    }
+    address{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 425px){
+    .responsiveImage{
+        width:26rem !important;
+        padding: 1rem;
+    }
+    .albumBird{
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center;
+        }
+    .albumBirdNAme{
+        font-size:1.4rem;
+        margin-left: 1rem;
+    }
+    address{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:426px) and (max-width: 768px){
+    .responsiveImage{
+        width:22rem;
+        padding:1rem;
+    }
+    .albumBirdNAme{
+        font-size:1.4rem;
+        margin-left: 1rem;
+    }
+    .albumBird{
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center;
+        }
+    address{
+        text-align: center;
+    }
+}
